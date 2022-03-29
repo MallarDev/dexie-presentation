@@ -11,7 +11,7 @@ import {
   TextField,
 } from "@mui/material";
 import { useEffect, useState } from "react";
-import { createItem } from "./Items/item/actions";
+import { createItem } from "../database/actions";
 
 const initialState = {
   name: "",

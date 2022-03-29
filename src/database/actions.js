@@ -1,4 +1,4 @@
-import { db } from "../../../database/db";
+import { db } from "./db";
 
 export const createItem = async (item) => {
   const created = await db.items.add(item);

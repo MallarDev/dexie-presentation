@@ -12,7 +12,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useEffect, useState } from "react";
-import { deleteItem, updateItem } from "./actions";
+import { deleteItem, updateItem } from "../../../database/actions";
 import ItemContent from "./ItemContent";
 
 export default function Item({ item }) {
