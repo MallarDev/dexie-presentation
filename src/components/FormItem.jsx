@@ -58,6 +58,7 @@ export default function FormItem() {
               label="Nome"
               value={item.name}
               onChange={updateItem}
+              autocomplete={'off'}
             />
             <TextField
               id="quantity"
