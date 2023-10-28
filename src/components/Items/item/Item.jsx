@@ -1,4 +1,3 @@
-// @ts-check
 import { Delete } from "@mui/icons-material";
 import {
   Card,
@@ -7,9 +6,7 @@ import {
   CardHeader,
   FormControlLabel,
   IconButton,
-  Stack,
   Switch,
-  Typography,
 } from "@mui/material";
 import { useEffect, useState } from "react";
 import { deleteItem, updateItem } from "../../../database/actions";
